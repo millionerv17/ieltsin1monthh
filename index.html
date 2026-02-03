@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Listening Guide: Как прокачать Listening до Band 9</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header стили */
+        header {
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        .logo i {
+            color: #FFD700;
+        }
+        
+        .tg-channel {
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 8px 15px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .tg-channel:hover {
+            background-color: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+        }
+        
+        .tg-channel i {
+            color: #0088cc;
+        }
+        
+        /* Навигация */
+        nav {
+            background-color: #fff;
+            border-bottom: 1px solid #eaeaea;
+            padding: 0.8rem 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .nav-links li {
+            margin: 0 15px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            background-color: #f0f8ff;
+            color: #1a2980;
+        }
+        
+        /* Основной контент */
+        main {
+            padding: 2rem 0;
+        }
+        
+        .page {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1, h2, h3 {
+            color: #1a2980;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #26d0ce;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            color: #26a69a;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            color: #1a2980;
+            margin-top: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+        
+        .intro {
+            font-size: 1.1rem;
+            background-color: #e8f4fc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 5px solid #1a2980;
+        }
+        
+        /* Секции и карточки */
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid #26d0ce;
+        }
+        
+        .highlight {
+            background-color: #fffde7;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 5px solid #FFD700;
+        }
+        
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Таблица */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #1a2980;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        /* Уровни */
+        .levels {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .level-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        
+        .level-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .level-card.beginner {
+            border-top: 5px solid #4CAF50;
+        }
+        
+        .level-card.intermediate {
+            border-top: 5px solid #2196F3;
+        }
+        
+        .level-card.advanced {
+            border-top: 5px solid #9C27B0;
+        }
+        
+        .level-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        
+        .level-title i {
+            font-size: 1.8rem;
+        }
+        
+        .beginner .level-title i { color: #4CAF50; }
+        .intermediate .level-title i { color: #2196F3; }
+        .advanced .level-title i { color: #9C27B0; }
+        
+        /* Ресурсы */
+        .resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .resource-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-left: 4px solid #26d0ce;
+        }
+        
+        .resource-name {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #1a2980;
+        }
+        
+        /* Чек-лист */
+        .checklist {
+            background-color: #e8f5e9;
+            padding: 1.8rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .checklist-item i {
+            color: #4CAF50;
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a2980;
+            color: white;
+            padding: 2.5rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .footer-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .footer-tg {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                justify-content: center;
+            }
+            
+            .nav-links li {
+                margin: 5px 10px;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-headphones-alt"></i>
+                    <span>IELTS Listening Guide</span>
+                </div>
+                <div class="tg-channel">
+                    <i class="fab fa-telegram"></i>
+                    <span>ielts_in1month</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')">Главная</a></li>
+                <li><a href="#" onclick="showPage('system')">Система работы</a></li>
+                <li><a href="#" onclick="showPage('levels')">План по уровням</a></li>
+                <li><a href="#" onclick="showPage('resources')">Ресурсы</a></li>
+                <li><a href="#" onclick="showPage('checklist')">Чек-лист</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Главная страница -->
+        <div id="home" class="page active">
+            <h1>🎧 ГАЙД: Как прокачать IELTS Listening от начала до Band 9</h1>
+            
+            <div class="intro">
+                <p><strong>Для кого:</strong> Для тех, кто готовится к IELTS и хочет системно работать над Listening.</p>
+                <p><strong>Цель:</strong> Научить вас не просто "слушать", а анализировать ошибки и целенаправленно улучшать слабые места.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Что вас ждет в этом гайде?</h2>
+                <p>Этот гайд — пошаговая система, которая поможет вам перейти от хаотичной подготовки к целенаправленной работе над навыками аудирования для IELTS.</p>
+                
+                <div class="highlight">
+                    <p><strong>Главный секрет:</strong> Качество важнее количества. Один глубоко разобранный тест даст больше, чем пять сделанных "для галочки".</p>
+                </div>
+                
+                <p>Гайд разделен на три основные части:</p>
+                <ol>
+                    <li><strong>Система работы с Listening</strong> - как правильно анализировать ошибки и вести таблицу прогресса</li>
+                    <li><strong>План прокачки на разных уровнях</strong> - конкретные шаги для вашего текущего уровня</li>
+                    <li><strong>Полезные ресурсы и инструменты</strong> - лучшие материалы для подготовки</li>
+                </ol>
+                
+                <p>Используйте навигацию выше, чтобы перейти к нужному разделу!</p>
+            </div>
+            
+            <div class="tg-notice">
+                <p><i class="fas fa-info-circle"></i> <strong>Не забывайте подписываться на наш Telegram-канал:</strong> <span class="tg-channel-inline">@ielts_in1month</span> для получения дополнительных материалов и советов по подготовке к IELTS!</p>
+            </div>
+        </div>
+        
+        <!-- Страница системы работы -->
+        <div id="system" class="page">
+            <h1>📌 Часть 1: Как правильно работать с Listening (Система)</h1>
+            
+            <div class="section">
+                <p>Недостаточно просто решать тесты. Ключ к прогрессу — анализ ошибок.</p>
+                
+                <h2>1. Режим «Экзамен» (Exam Mode):</h2>
+                <ul>
+                    <li>Выполняйте секцию Listening на время, без пауз, как на настоящем экзамене.</li>
+                    <li>Не подглядывайте в скрипт (текст аудио) и ответы сразу после завершения.</li>
+                </ul>
+                
+                <h2>2. Проверка и анализ (Самое важное!):</h2>
+                <p>Создайте таблицу для анализа ошибок. Можно в заметках или в Excel.</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№ задания</th>
+                            <th>Мой ответ</th>
+                            <th>Правильный ответ</th>
+                            <th>Тип ошибки</th>
+                            <th>Причина ошибки</th>
+                            <th>Что делать</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>15 march</td>
+                            <td>15 March</td>
+                            <td>Орфография/формат</td>
+                            <td>Не знал, что месяцы с заглавной</td>
+                            <td>Учить правила заполнения форм</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>efficient</td>
+                            <td>effect</td>
+                            <td>Путаница в словах</td>
+                            <td>Не расслышал окончание -ient</td>
+                            <td>Работать над похожими звуками</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h2>3. Классифицируйте ВСЕ ошибки:</h2>
+                <ul>
+                    <li><strong>Не расслышал (Didn't catch):</strong> Слова пролетели мимо. Почему? Быстрая речь, слабая связь слов?</li>
+                    <li><strong>Орфография (Spelling):</strong> Неправильно написал слово (february → febuary).</li>
+                    <li><strong>Грамматика (Grammar):</strong> Неправильная форма (ед./мн. число, артикль, окончание глагола).</li>
+                    <li><strong>Отвлечение (Distraction):</strong> Пропустил, потому что задумался над прошлым вопросом.</li>
+                    <li><strong>Незнание слова (Unknown word):</strong> Вообще не знал это слово.</li>
+                    <li><strong>Синоним/перефразирование (Synonym/Paraphrase):</strong> В вопросе было "cheap", а в аудио — "inexpensive". Не сориентировался.</li>
+                    <li><strong>Формат (Format):</strong> Написал "15 march" вместо "15 March" или "2 PM" вместо "2pm".</li>
+                </ul>
+                
+                <h2>4. Работа над ошибками (Post-Game):</h2>
+                <ul>
+                    <li>Прослушайте отрывок с ошибкой ЕЩЕ РАЗ со скриптом в руках. Найдите место, где дается ответ. Почему вы его не услышали?</li>
+                    <li>Выпишите новые слова и полезные фразы из скрипта.</li>
+                    <li>Повторите вслух за диктором проблемный отрывок, имитируя его произношение и интонацию.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Страница плана по уровням -->
+        <div id="levels" class="page">
+            <h1>📈 Часть 2: План прокачки на разных уровнях</h1>
+            
+            <div class="levels">
+                <div class="level-card beginner">
+                    <div class="level-title">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Уровень: Beginner/Intermediate (Target: Band 5.0-6.5)</h3>
+                    </div>
+                    <p><strong>Фокус:</strong> Основа основ.</p>
+                    <p><strong>Что делать:</strong></p>
+                    <ul>
+                        <li><strong>Активное слушание (Active Listening)</strong> на медленной скорости. Используйте ресурсы вроде BBC Learning English (серия "6 Minute English") или подкасты для изучающих.</li>
+                        <li><strong>Диктанты (Dictations).</strong> Короткие предложения → абзацы. Идеально: IELTS Liz или специальные приложения для диктантов.</li>
+                        <li>Доведите до автоматизма: <strong>Числа, даты, буквы алфавита</strong> (часть 1). Пишите их под диктовку.</li>
+                        <li>Работа над орфографией. Учите топ-500 частых слов IELTS. Пишите их.</li>
+                        <li>Слушайте БЕЗ скрипта, потом СО скриптом, потом БЕЗ — пока не поймете 90%.</li>
+                    </ul>
+                </div>
+                
+                <div class="level-card intermediate">
+                    <div class="level-title">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Уровень: Upper-Intermediate (Target: Band 7.0-8.0)</h3>
+                    </div>
+                    <p><strong>Фокус:</strong> Детали, скорость, понимание контекста.</p>
+                    <p><strong>Что делать:</strong></p>
+                    <ul>
+                        <li>Фокус на <strong>частях 3 и 4</strong>. Они самые сложные: академические лекции, дискуссии.</li>
+                        <li><strong>Предсказание (Prediction).</strong> Перед прослушиванием читайте вопросы и пытайтесь предугадать, какой частью речи будет ответ (сущ., глаг., прил.), его примерное содержание.</li>
+                        <li>Работа с <strong>синонимами</strong>. Выписывайте, как вопросы перефразируют слова из аудио.</li>
+                        <li>Слушайте "живые" материалы: Подкасты на интересные темы (TED Talks Daily, The Guardian Science Weekly), документальные фильмы (BBC, National Geographic).</li>
+                        <li>Учитесь концентрироваться на 30 минут без перерыва.</li>
+                    </ul>
+                </div>
+                
+                <div class="level-card advanced">
+                    <div class="level-title">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Уровень: Advanced (Target: Band 8.5-9.0)</h3>
+                    </div>
+                    <p><strong>Фокус:</strong> Перфекционизм и устойчивость.</p>
+                    <p><strong>Что делать:</strong></p>
+                    <ul>
+                        <li>Анализ "ловушек" (Traps). Экзаменаторы специально добавляют отвлекающие маневры: говорящий поправляет себя, второй собеседник не соглашается. Учитесь их распознавать.</li>
+                        <li>Слушание на скорости <strong>1.25x-1.5x</strong>. После этого оригинальная скорость IELTS покажется очень комфортной.</li>
+                        <li>Фокус на интонации и акцентах. Понимание, как интонация показывает важную информацию. Слушайте дикторов с разными акцентами (австралийский, новозеландский, ирландский).</li>
+                        <li>Работа над редкими ошибками. На этом уровне одна-две ошибки решают. Ваш детальный анализ таблицы ошибок — главный инструмент.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Страница ресурсов -->
+        <div id="resources" class="page">
+            <h1>🛠 Часть 3: Полезные ресурсы и инструменты</h1>
+            
+            <div class="section">
+                <p>Вот список проверенных ресурсов, которые помогут вам в подготовке к IELTS Listening:</p>
+                
+                <div class="resources">
+                    <div class="resource-card">
+                        <div class="resource-name">Cambridge IELTS Books (10-18)</div>
+                        <p><strong>Для чего:</strong> Основное оружие. Реальные прошлые тесты.</p>
+                        <p><strong>Уровень:</strong> Все</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">IELTS Liz (YouTube/сайт)</div>
+                        <p><strong>Для чего:</strong> Бесплатные уроки, практика, советы.</p>
+                        <p><strong>Уровень:</strong> Все</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">BBC Learning English</div>
+                        <p><strong>Для чего:</strong> "6 Minute English", "The English We Speak" — идеально для начала.</p>
+                        <p><strong>Уровень:</strong> Нач., Ср.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">TED Talks</div>
+                        <p><strong>Для чего:</strong> Академическая лексика, разные акценты, сложные темы.</p>
+                        <p><strong>Уровень:</strong> Ср., Прод.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">British Council: LearnEnglish</div>
+                        <p><strong>Для чего:</strong> Практические упражнения на Listening.</p>
+                        <p><strong>Уровень:</strong> Все</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">Приложение: ELSA Speak</div>
+                        <p><strong>Для чего:</strong> Поможет с произношением и распознаванием звуков.</p>
+                        <p><strong>Уровень:</strong> Нач., Ср.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">Метод: Диктанты (Dictations.io)</div>
+                        <p><strong>Для чего:</strong> Тренировка слуха и правописания одновременно.</p>
+                        <p><strong>Уровень:</strong> Все</p>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <p><strong>Совет:</strong> Не пытайтесь использовать все ресурсы сразу. Выберите 2-3, которые наиболее соответствуют вашему уровню и стилю обучения, и работайте с ними систематически.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Страница чек-листа -->
+        <div id="checklist" class="page">
+            <h1>💎 Итог: Краткий чек-лист после каждого теста</h1>
+            
+            <div class="section">
+                <p>После каждого выполненного теста IELTS Listening проверьте, выполнили ли вы все эти шаги:</p>
+                
+                <div class="checklist">
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Проверил ответы и заполнил таблицу анализа.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Нашел и прослушал момент с каждой ошибкой со скриптом.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Выписал новые слова/фразы/синонимы.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Определил свой самый частый тип ошибок (орфография? синонимы?).</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Выделил 15-20 минут на целевую тренировку этого слабого места (диктант, слушание похожих отрывков, повторение слов).</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <p><strong>Удачи! Ты сможешь 💪</strong></p>
+                    <p>P.S. Сохрани этот гайд в избранном и возвращайся к нему раз в неделю, чтобы сверять свой прогресс!</p>
+                </div>
+                
+                <div class="tg-notice">
+                    <p><i class="fas fa-paper-plane"></i> <strong>Больше полезных материалов и советов по подготовке к IELTS вы найдете в нашем Telegram-канале:</strong> <span class="tg-channel-inline">@ielts_in1month</span>. Присоединяйтесь!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-headphones-alt"></i> IELTS Listening Guide
+                </div>
+                <div class="footer-tg">
+                    <i class="fab fa-telegram"></i>
+                    <span>Подписывайтесь: @ielts_in1month</span>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 IELTS Listening Guide. Все права защищены. Материалы подготовлены для канала @ielts_in1month
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Функция для переключения страниц
+        function showPage(pageId) {
+            // Скрыть все страницы
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Показать выбранную страницу
+            document.getElementById(pageId).classList.add('active');
+            
+            // Обновить активную ссылку в навигации
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => {
+                link.style.backgroundColor = '';
+                link.style.color = '';
+            });
+            
+            // Прокрутить наверх страницы
+            window.scrollTo(0, 0);
+            
+            return false;
+        }
+        
+        // Инициализация при загрузке страницы
+        document.addEventListener('DOMContentLoaded', function() {
+            // Добавляем инлайн стиль для tg-channel внутри текста
+            const tgNotices = document.querySelectorAll('.tg-notice, .tg-channel-inline');
+            tgNotices.forEach(el => {
+                if (el.classList.contains('tg-channel-inline')) {
+                    el.style.backgroundColor = 'rgba(0, 136, 204, 0.1)';
+                    el.style.color = '#0088cc';
+                    el.style.padding = '2px 8px';
+                    el.style.borderRadius = '4px';
+                    el.style.fontWeight = '600';
+                    el.style.margin = '0 5px';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
